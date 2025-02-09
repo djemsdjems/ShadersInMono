@@ -40,6 +40,7 @@ namespace ShadersInMono
             _image = Content.Load<Texture2D>("dedodatedwam");
 
             //Loading the shader code...Shader.fx- in this shader we have both the vertex and the fragment shaders
+            //it is inside of the Content Folder!
             shader = Content.Load<Effect>("Shader");
 
         }
